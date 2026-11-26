@@ -1,0 +1,36 @@
+{
+  "seeds": [
+    20261014,
+    20261015,
+    20261016
+  ],
+  "inner_folds": 5,
+  "widths": [
+    16,
+    32
+  ],
+  "lambdas": [
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "max_epochs": 1000,
+  "check_every": 10,
+  "patience": 100,
+  "min_delta": 1e-05,
+  "lr": 0.003,
+  "curvature": 0.0,
+  "outer_seeds": [
+    20261014,
+    20261015,
+    20261016,
+    20261017,
+    20261018,
+    20261019,
+    20261020,
+    20261021,
+    20261022,
+    20261023
+  ],
+  "note": "Selected main-CMNN settings, not a complete experiment protocol. Training-only inner validation; see METHOD.md."
+}

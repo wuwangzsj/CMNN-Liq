@@ -1,0 +1,165 @@
+[
+  {
+    "file": "src/features.py",
+    "change": "Extracted original definitions; import paths adapted.",
+    "sources": [
+      {
+        "file": "final_figures\\chapter4_main\\code\\frozen_inference.py",
+        "sha256": "43836a1c902cdebdc8f034421083bc1870c90857bceeede70dd8990edad740cb"
+      },
+      {
+        "file": "CIM-Liq-TrainingRepair/rapliq.py",
+        "sha256": "04a434ad4bcc746c12f1b97e8119d23e5acce23846cc6c0077950dcdf930e297"
+      },
+      {
+        "file": "CIM-Liq-TrainingRepair/mtp.py",
+        "sha256": "92cec576dee91b91075b5fd6c34159110b926a6ed74e6969e6c2db2e23e97bed"
+      }
+    ]
+  },
+  {
+    "file": "src/inference.py",
+    "change": "Extracted original definitions; import paths adapted.",
+    "sources": [
+      {
+        "file": "final_figures\\chapter4_main\\code\\frozen_inference.py",
+        "sha256": "43836a1c902cdebdc8f034421083bc1870c90857bceeede70dd8990edad740cb"
+      }
+    ]
+  },
+  {
+    "file": "src/cmnn.py",
+    "change": "Extracted original definitions; import paths adapted.",
+    "sources": [
+      {
+        "file": "CIM-Liq-TrainingRepair/cmnn.py",
+        "sha256": "324038ae8b2a10cee013b7842d2bd6116332e89194cec59869799fbd684532b0"
+      }
+    ]
+  },
+  {
+    "file": "src/training.py",
+    "change": "Retained CMNN branch; removed unrelated CIM branch and machine setup. CMNN objective, initialization, optimizer, stopping and selection unchanged.",
+    "sources": [
+      {
+        "file": "CIM-Liq-TrainingRepair/repair.py",
+        "sha256": "0f2451c14d6c2a11116b31b26789c41eddc4162e108a9a70df56dedeab418926"
+      }
+    ]
+  },
+  {
+    "file": "src/comparators.py",
+    "change": "Extracted original definitions; import paths adapted.",
+    "sources": [
+      {
+        "file": "code/route_models.py",
+        "sha256": "3a675255191fca2deba9ab876dfd84a18935f614738f9fa7b5f7b5376d2a52ff"
+      }
+    ]
+  },
+  {
+    "file": "src/factorial.py",
+    "change": "Extracted original definitions; import paths adapted.",
+    "sources": [
+      {
+        "file": "CMNN_Liq_Revision_20261025\\scripts\\factorial_geometry.py",
+        "sha256": "746309ee88f14cad9744edaed35341218e9d688c21958212414f70bd837d3807"
+      }
+    ]
+  },
+  {
+    "file": "src/factorial_training.py",
+    "change": "Extracted original definitions; import paths adapted.",
+    "sources": [
+      {
+        "file": "CMNN_Liq_Revision_20261025\\scripts\\training.py",
+        "sha256": "2f8a881f54cdc7d0779f774c96e832f40d98b9f3d0bdd22713c237d200c6e577"
+      }
+    ]
+  },
+  {
+    "file": "src/support_query.py",
+    "change": "Extracted original definitions; import paths adapted.",
+    "sources": [
+      {
+        "file": "paper_cg_revision\\2026-10-24_v01\\diagnostics\\support\\run_support.py",
+        "sha256": "079a26f1c46303ed937fbc553e3520fae4ef1aa6fe85c0b4cae5e5d64c76194c"
+      }
+    ]
+  },
+  {
+    "file": "src/path_metrics.py",
+    "change": "Unchanged original cumulative-path metrics and self-check.",
+    "sources": [
+      {
+        "file": "results\\path_drawdown_audit_20261123\\common_metrics.py",
+        "sha256": "18873c54905236d0a87faec03b14817d4afb78ec70c6b865f065c10d15b714b9"
+      }
+    ]
+  },
+  {
+    "file": "src/reference_mw.py",
+    "change": "Extracted original definitions; import paths adapted.",
+    "sources": [
+      {
+        "file": "results\\additional_results_20261123\\reference_mw\\train_reference_mw.py",
+        "sha256": "8d7fea86af99445c4a3e039e2d225a5395d0f9c362ffad2ca0efee93fe5d1569"
+      }
+    ]
+  },
+  {
+    "file": "src/evaluation.py",
+    "change": "Extracted original definitions; import paths adapted.",
+    "sources": [
+      {
+        "file": "CMNN_Liq_Revision_20261025\\scripts\\common.py",
+        "sha256": "4188b1a3f2967e06d9ac66dd917c4efd8480f8a2599d2b4e39913bebdb37ae64"
+      }
+    ]
+  },
+  {
+    "file": "config/main_cmnn.json",
+    "change": "Selected CMNN settings; original inner seeds retained, ten outer seeds stated separately.",
+    "sources": [
+      {
+        "file": "CIM-Liq-TrainingRepair/config.json",
+        "sha256": "1dfb50a5ddfe5f5975c4d94b5c3d52c67346250527037fe64ce30562336ed058"
+      }
+    ]
+  },
+  {
+    "file": "data/input_schema.csv",
+    "change": "Header only; contains no observations.",
+    "sources": []
+  },
+  {
+    "file": "requirements.txt",
+    "change": "Minimal imports, not a locked recreation of the original environment.",
+    "sources": []
+  },
+  {
+    "file": ".gitignore",
+    "change": "Repository hygiene.",
+    "sources": []
+  },
+  {
+    "file": "README.md",
+    "change": "New release documentation.",
+    "sources": []
+  },
+  {
+    "file": "METHOD.md",
+    "change": "Method explanation grounded in selected scripts; no new results.",
+    "sources": []
+  },
+  {
+    "file": "README_中文.md",
+    "change": "Chinese upload guide.",
+    "sources": []
+  },
+  {
+    "file": "check_core.py",
+    "change": "Synthetic no-training checks added for this code release.",
+    "sources": []
+  }
+]

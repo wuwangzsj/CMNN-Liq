@@ -1,0 +1,83 @@
+{
+  "scope": "Core-method code only; no training performed during packaging",
+  "prediction_replay": {
+    "M": {
+      "seed": 20261014,
+      "cases": 1066,
+      "regions": 23,
+      "maximum_absolute_prediction_difference": 3.3084646133829665e-14
+    },
+    "M-PGA-Mw": {
+      "seed": 20261014,
+      "cases": 1066,
+      "regions": 23,
+      "maximum_absolute_prediction_difference": 3.3584246494910985e-14
+    }
+  },
+  "original_definition_checks": [
+    {
+      "file": "src/features.py",
+      "definitions": [
+        "physical_features",
+        "inputs"
+      ],
+      "original_AST_unchanged": true
+    },
+    {
+      "file": "src/cmnn.py",
+      "definitions": [
+        "MonoLayer",
+        "mixed_activation",
+        "CMNN"
+      ],
+      "original_AST_unchanged": true
+    },
+    {
+      "file": "src/comparators.py",
+      "definitions": [
+        "features",
+        "Network",
+        "fit",
+        "restore",
+        "predict"
+      ],
+      "original_AST_unchanged": true
+    },
+    {
+      "file": "src/factorial.py",
+      "definitions": [
+        "project_pair",
+        "Net"
+      ],
+      "original_AST_unchanged": true
+    },
+    {
+      "file": "src/factorial_training.py",
+      "definitions": [
+        "train_fixed"
+      ],
+      "original_AST_unchanged": true
+    },
+    {
+      "file": "src/support_query.py",
+      "definitions": [
+        "Support",
+        "Curve"
+      ],
+      "original_AST_unchanged": true
+    },
+    {
+      "file": "src/reference_mw.py",
+      "definitions": [
+        "new_inputs",
+        "DualMonoLayer",
+        "ReferenceMwCMNN",
+        "numpy_predict"
+      ],
+      "original_AST_unchanged": true
+    }
+  ],
+  "core_import_and_algebra_check": "passed",
+  "license": "Not selected by author",
+  "data_and_weights_in_archive": false
+}
